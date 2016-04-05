@@ -1,11 +1,158 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>Course Creator</title>
-	<link rel="stylesheet" href="css/style.css">
+  <title>Course Creator | Yonathan Ayenew</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://use.typekit.net/sqr4veo.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 <body>
-	
+  <div class="border"></div>
+  <div class="wrapper">
+    <header class="main_header clearfix">
+      <div class="logo">
+        <img src="images/smile.svg" alt="Smile">
+        <h1>Course<span>Creator</span></h1>
+      </div>
+      <nav class="nav">
+        <a href="#">Full-Time</a>
+        <a href="#">Part-Time</a>
+        <a href="#">Freelance</a>
+        <a href="#">Contract</a>
+      </nav>
+    </header>
+
+    <ul id="timeline">
+      <a href="#">
+        <li class="listing clearfix">
+          <div class="image_wrapper">
+            <img src="images/twitter.jpg" alt="Twitter">
+          </div>
+          <div class="info">
+            <span class="job_title">UX Designer</span>
+            <span class="job_info">Twitter <span>&bull;</span> San Francisco <span>&bull;</span> March 1st</span>
+          </div>
+          <span class="job_type full_time">Full-Time</span>
+        </li>
+      </a>
+
+      <a href="#">
+        <li class="listing clearfix">
+          <div class="image_wrapper">
+            <img src="images/product_hunt.jpg" alt="Product Hunt">
+          </div>
+          <div class="info">
+            <span class="job_title">Product Designer</span>
+            <span class="job_info">Product Hunt <span>&bull;</span> San Francisco <span>&bull;</span> March 1st</span>
+          </div>
+          <span class="job_type full_time">Full-Time</span>
+        </li>
+      </a>
+
+      <li class="date">Today</li>
+
+      <li class="listing clearfix">
+        <div class="image_wrapper">
+          <img src="images/dribbble.jpg" alt="Dribbble">
+        </div>
+        <div class="info">
+          <span class="job_title">Senior Rails Dev</span>
+          <span class="job_info">Dribbble <span>&bull;</span> San Francisco <span>&bull;</span> March 1st</span>
+        </div>
+        <span class="job_type freelance">Freelance</span>
+      </li>
+
+      <li class="listing clearfix">
+        <div class="image_wrapper">
+          <img src="images/medium.jpg" alt="Medium">
+        </div>
+        <div class="info">
+          <span class="job_title">Front-End Engineer</span>
+          <span class="job_info">Medium <span>&bull;</span> San Francisco <span>&bull;</span> March 1st</span>
+        </div>
+        <span class="job_type contract">Contract</span>
+      </li>
+
+      <li class="listing clearfix">
+        <div class="image_wrapper">
+          <img src="images/soundcloud.jpg" alt="SoundCloud">
+        </div>
+        <div class="info">
+          <span class="job_title">Visual Designer</span>
+          <span class="job_info">SoundCloud <span>&bull;</span> San Francisco <span>&bull;</span> March 1st</span>
+        </div>
+        <span class="job_type full_time">Full-Time</span>
+      </li>
+
+      <li class="listing clearfix">
+        <div class="image_wrapper">
+          <img src="images/twitter.jpg" alt="Twitter">
+        </div>
+        <div class="info">
+          <span class="job_title">UX Designer</span>
+          <span class="job_info">Twitter <span>&bull;</span> San Francisco <span>&bull;</span> March 1st</span>
+        </div>
+        <span class="job_type part_time">Part-Time</span>
+      </li>
+
+      <li class="date">Jan 28th</li>
+
+      <li class="listing clearfix">
+        <div class="image_wrapper">
+          <img src="images/dribbble.jpg" alt="Dribbble">
+        </div>
+        <div class="info">
+          <span class="job_title">Senior Rails Dev</span>
+          <span class="job_info">Dribbble <span>&bull;</span> San Francisco <span>&bull;</span> March 1st</span>
+        </div>
+        <span class="job_type freelance">Freelance</span>
+      </li>
+
+      <li class="listing clearfix">
+        <div class="image_wrapper">
+          <img src="images/medium.jpg" alt="Medium">
+        </div>
+        <div class="info">
+          <span class="job_title">Front-End Engineer</span>
+          <span class="job_info">Medium <span>&bull;</span> San Francisco <span>&bull;</span> March 1st</span>
+        </div>
+        <span class="job_type contract">Contract</span>
+      </li>
+
+      <li class="listing clearfix">
+        <div class="image_wrapper">
+          <img src="images/soundcloud.jpg" alt="SoundCloud">
+        </div>
+        <div class="info">
+          <span class="job_title">Visual Designer</span>
+          <span class="job_info">SoundCloud <span>&bull;</span> San Francisco <span>&bull;</span> March 1st</span>
+        </div>
+        <span class="job_type full_time">Full-Time</span>
+      </li>
+
+      <li class="listing clearfix">
+        <div class="image_wrapper">
+          <img src="images/twitter.jpg" alt="Twitter">
+        </div>
+        <div class="info">
+          <span class="job_title">UX Designer</span>
+          <span class="job_info">Twitter <span>&bull;</span> San Francisco <span>&bull;</span> March 1st</span>
+        </div>
+        <span class="job_type part_time">Part-Time</span>
+      </li>
+
+      <li class="date">Jan 27th</li>
+
+    </ul>
+
+    <div class="load_more">
+      <button class="button">Load More</button>
+    </div>
+  </div>
 </body>
 </html>
